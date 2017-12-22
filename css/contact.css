@@ -1,0 +1,47 @@
+#s4 {
+    background-image: url("../img/contact.jpg");
+    background-size: cover;
+    color:#fff;
+    justify-content: center;}
+#s4 p{
+    margin-left: 25rem;
+    font-family: Didact Gothic;
+    font-size: 30pt;
+}
+#s4 h1 {
+    margin-left: 10rem;
+    font-family: Didact Gothic;
+}
+
+@media screen and (max-width:900px) {
+    #s4 {
+        background-image:none;
+        background-color: #eee;
+    }
+    #s4 p{
+    margin-left: 2rem;
+    font-family: Didact Gothic;
+    font-size: 30pt;
+    }
+    #post {
+    color: black;
+    margin-top:2rem;
+}
+    #s4 h1 {
+        margin-left: 2rem;}
+}
+@media screen and (max-width:767px) {
+  #s4 h1 {
+    color: black;
+    font-size: 30pt;
+      }  
+    #s4 img {
+        width:20%;
+    }
+    #s4 p {
+        font-size:15pt;
+    }
+    #call {
+        margin-top: 0;
+    }
+}

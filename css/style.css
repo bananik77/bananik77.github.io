@@ -1,0 +1,173 @@
+#s1 h1 {
+      font-family: Didact Gothic;
+      letter-spacing: 2rem;
+      font-size: 10rem;
+
+  }
+
+
+  #s1 p {
+      font-family: Didact Gothic;
+      letter-spacing: 0.2em;
+      line-height: 180%;
+      font-size: 1.5rem;
+      color: black;
+  }
+
+  h3 {
+      font-size: 2rem;
+  }
+
+  #s4 h1 {
+      color: black;
+      font-size: 120pt;
+  }
+
+  #portfolio h2 {
+      font-family: Didact Gothic;
+      letter-spacing: 0.5rem;
+      font-size: 2.5rem;
+      padding-left: 40%;
+      padding-bottom: 5%;
+
+
+  }
+
+  #vs {
+      font-family: Didact Gothic;
+      font-size: 1.1rem;
+      letter-spacing: 0.05rem;
+  }
+
+  #s3 {
+      position: relative;
+  }
+
+  #exh {
+      position: absolute;
+      left: 45%;
+      margin-top: 40px;
+      font-family: Didact Gothic;
+      letter-spacing: 0.5rem;
+      font-size: 2rem;
+      border-bottom: 2px solid #555;
+
+  }
+
+  #post {
+      color: black;
+      margin-top: 8rem;
+  }
+
+  #call {
+      color: black;
+  }
+
+  #inst {
+      color: black;
+      margin-top: 2rem;
+  }
+
+  @media screen and (max-width:900px) {
+      header,
+      section {
+          min-height: inherit;
+      }
+
+      #s1 h1 {
+          letter-spacing: 2rem;
+          font-size: 5rem;
+      }
+
+      #s1 p {
+          letter-spacing: 0.2em;
+          font-size: 1.2rem;
+      }
+      #vs {
+          font-size: 1.5rem;
+          letter-spacing: 0.05rem;
+
+      }
+      #s4 h1 {
+          color: black;
+          font-size: 70pt;
+      }
+      #portfolio h2 {
+          font-family: Didact Gothic;
+          letter-spacing: 0.5rem;
+          font-size: 3rem;
+          padding-left: 30%;
+      }
+  }
+
+@media screen and (max-width: 767px) {
+    .collapse.show {
+        position: relative;
+    }
+    #mainNav .navbar-nav {
+        width: 100%;
+        top: 0px;
+    }
+}
+
+
+
+  @media screen and (max-width:767px) {
+      #s1 h1 {
+          letter-spacing: 1rem;
+          font-size: 3em;
+      }
+      #s1 p {
+
+          letter-spacing: 0;
+          font-size: 10pt;
+      }
+      #exh {
+          margin-top: 10px;
+          left: 25%;
+      }
+      #portfolio h2 {
+          letter-spacing: 0.1rem;
+          font-size: 2rem;
+          padding-left: 30%;
+          padding-bottom: 0%;
+      }
+}
+
+/*wtf*/
+
+/* hamburger2.css:151 */
+/* @media screen and (max-width: 767px) */
+#mainNav.navbar-shrink .navbar-collapse {
+    top: 95px !important;
+}
+.gallery .row {
+    display: table !important;
+    max-width: 100%   !important;
+}
+.container.gallery-container {
+    min-height: auto !important;
+}
+section, header {
+    min-height: auto !important;
+    padding: 0px 0 !important;
+}
+section#s1,
+section#portfolio,
+section#s4 {
+    padding: 5rem 0 !important;
+}
+section#s4 {
+    min-height: 100vh !important;
+}
+/*slider.css:45*/
+@media screen and (max-width: 767px) {
+    .carousel-control-prev, .carousel-control-next {
+        margin-top: 0 !important;
+    }    
+}
+@media screen and (min-width: 900px) {
+    #s1 h1 {
+        font-size: 8rem;
+    }
+}
